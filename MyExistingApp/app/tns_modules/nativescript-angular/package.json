@@ -1,0 +1,99 @@
+{
+  "private": false,
+  "name": "nativescript-angular",
+  "version": "1.1.3",
+  "description": "An Angular 2 renderer that lets you build mobile apps with NativeScript.",
+  "homepage": "http://www.telerik.com",
+  "bugs": {
+    "url": "http://www.telerik.com"
+  },
+  "contributors": [
+    {
+      "name": "Hristo Deshev",
+      "email": "hristo.deshev@telerik.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/nativescript-angular.git"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "ngc": "ngc -p tsconfig.json",
+    "tsc": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "nativescript-intl": "~0.0.4",
+    "@angular/core": "~2.1.1",
+    "@angular/common": "~2.1.1",
+    "@angular/compiler": "~2.1.1",
+    "@angular/http": "~2.1.1",
+    "@angular/platform-browser": "~2.1.1",
+    "@angular/platform-browser-dynamic": "~2.1.1",
+    "@angular/forms": "~2.1.1",
+    "@angular/router": "~3.1.1",
+    "rxjs": "5.0.0-beta.12",
+    "reflect-metadata": "~0.1.8",
+    "parse5": "1.3.2",
+    "punycode": "1.3.2",
+    "querystring": "0.2.0",
+    "url": "0.10.3"
+  },
+  "devDependencies": {
+    "tns-core-modules": ">=2.2.0 || >=2.2.0-2016",
+    "zone.js": "^0.6.21",
+    "typescript": "^2.0.2",
+    "@angular/compiler-cli": "~2.1.1"
+  },
+  "nativescript": {},
+  "_id": "nativescript-angular@1.1.3",
+  "_shasum": "5a0486b1facf9850c9e96816128af669e8108cd7",
+  "_resolved": "https://registry.npmjs.org/nativescript-angular/-/nativescript-angular-1.1.3.tgz",
+  "_from": "nativescript-angular@1.1.3",
+  "_npmVersion": "3.10.3",
+  "_nodeVersion": "6.7.0",
+  "_npmUser": {
+    "name": "tns-bot",
+    "email": "nativescript@telerik.com"
+  },
+  "dist": {
+    "shasum": "5a0486b1facf9850c9e96816128af669e8108cd7",
+    "tarball": "https://registry.npmjs.org/nativescript-angular/-/nativescript-angular-1.1.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "enchev",
+      "email": "vladimir.enchev@gmail.com"
+    },
+    {
+      "name": "erjangavalji",
+      "email": "erjan.gavalji@gmail.com"
+    },
+    {
+      "name": "hamorphis",
+      "email": "rossen.hristov@progress.com"
+    },
+    {
+      "name": "hdeshev",
+      "email": "hristo@deshev.com"
+    },
+    {
+      "name": "nsndeck",
+      "email": "nedyalko.nikolov@telerik.com"
+    },
+    {
+      "name": "tns-bot",
+      "email": "nativescript@telerik.com"
+    },
+    {
+      "name": "vakrilov",
+      "email": "alexander.vakrilov@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-angular-1.1.3.tgz_1479301354096_0.41062153223901987"
+  },
+  "directories": {}
+}
